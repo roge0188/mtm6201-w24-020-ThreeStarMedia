@@ -53,8 +53,8 @@
           </nav>
     </header>
     <main>
-        <section class="banner" id="home">
-            <div class="container-xl bg-dark opacity-75 text-white pt-4 pb-2 my-4">
+        <section class="banner py-4" id="home">
+            <div class="container-xl bg-dark bg-opacity-75 text-white pt-4 pb-2 my-4">
                 <h1 class="display-1">Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa asperiores architecto, quasi quas accusamus ipsam ullam nobis expedita perferendis laboriosam iusto odio nulla. Tempora maxime illum nam asperiores aperiam!</p>
                 <a class="btn btn-primary rounded-0 py-3 text-dark" href="#" role="button">Connect with us <i class="bi bi-caret-right-fill"></i></a>
@@ -135,7 +135,7 @@
         </section>
         <!-- Our vision -->
         <section class="vision">
-            <div class="container-xl bg-dark text-white pt-4 pb-2">
+            <div class="container-xl text-white pt-4 pb-2">
                 <h2><strong>Our Vision</strong></h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id nesciunt suscipit, earum atque sequi architecto. Praesentium, velit? Fugiat provident earum molestias quaerat ad eveniet minus excepturi rem? Optio, architecto eum?</p>
                 <a class="btn btn-dark btn-outline-primary rounded-0 py-3 bg-dark" href="#" role="button">Learn More <i class="bi bi-caret-right-fill"></i></a>
@@ -149,7 +149,7 @@
                   </div>
                   <div class=" bg-secondary p-2 mb-2 mb-md-0">
                     <h3>John Doe</h3>
-                    <p class="h6 border-bottom border-3">CEO and Co-owner</p>
+                    <p class="h6 border-bottom border-primary border-3">CEO and Co-owner</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate beatae nesciunt qui nam, at mollitia rerum fugiat accusantium. Vitae voluptatibus at aliquam omnis reiciendis libero nulla. Autem maxime culpa soluta?</p>
                   </div>
                   <div class="order-md-last">
@@ -157,14 +157,68 @@
                   </div>
                   <div class=" bg-secondary p-2">
                     <h3>Bob Rite</h3>
-                    <p class="h6 border-bottom border-3">CFO and Co-owner</p>
+                    <p class="h6 border-bottom border-primary border-3">CFO and Co-owner</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate beatae nesciunt qui nam, at mollitia rerum fugiat accusantium. Vitae voluptatibus at aliquam omnis reiciendis libero nulla. Autem maxime culpa soluta?</p>
                   </div>
                 </div>
         </section>
         <!-- Contact Us -->
-
+        <section class="container-xl py-4" id="contact">
+          <h2><strong>Contact Us</strong></h2>
+          <div class="row g-3 py-2">
+            <div class="col-12 col-md-6">
+              <h3><strong>Send us a message</strong></h3> 
+              <form>
+                <div class="mb-3">
+                  <label for="InputName" class="form-label">Full Name</label>
+                  <input type="text" class="form-control rounded-0" id="InputName">
+              </div>
+              <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control rounded-0" id="InputEmail">
+            </div>
+            <div class="mb-3">
+              <label for="InputMessage" class="form-label">Message</label>
+              <input type="text" class="form-control rounded-0" id="InputMessage" cols=30 rows="5">
+            </div>
+              <button type="submit" class="btn btn-dark rounded-0">Submit</button>
+              </form>
+            </div>
+            <div class="col-12 order-md-last">
+              <h3><strong>Hours of operation</strong></h3>  
+              <table class="table table-bordered">
+                <thead class="table-secondary text-center">
+                  <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Monday - Friday</td>
+                    <td>9 AM - 6 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-12 col-md-6">
+              <h3>Location</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44873.48603901941!2d-75.79441378046872!3d45.3368430329857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0721269f7397%3A0xc0ff2823700fb7e8!2s1335%20Woodroffe%20Ave%2C%20Ottawa%2C%20ON!5e0!3m2!1sen!2sca!4v1710969957013!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </section>
     </main>
+    <!-- footer -->
+    <footer class="bg-dark text-primary py-4">
+      <div class="container-xl">
+        <p>&copy; Copyright three star media, 2020</p>
+        <p>All images are taken from <a href="https://unsplash.com/" target="_blank">Unsplash.</a></p>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
